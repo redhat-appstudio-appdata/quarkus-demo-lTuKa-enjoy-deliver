@@ -1,0 +1,20 @@
+apiVersion: route.openshift.io/v1
+kind: Route
+metadata:
+  creationTimestamp: null
+  labels:
+    app.kubernetes.io/created-by: application-service
+    app.kubernetes.io/instance: quarkus-demo
+    app.kubernetes.io/managed-by: kustomize
+    app.kubernetes.io/name: quarkus-demo
+    app.kubernetes.io/part-of: quarkus-demo
+  name: quarkus-demo0tpy
+spec:
+  path: /
+  port:
+    targetPort: 8080
+  to:
+    kind: Service
+    name: quarkus-demo
+    weight: null
+status: {}
