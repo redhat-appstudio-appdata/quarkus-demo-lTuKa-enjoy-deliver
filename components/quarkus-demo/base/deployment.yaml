@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: quarkus-demo
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads/rh-ee-slallema-tenant/quarkus-demo/quarkus-demo@sha256:759a3d276e5ea1e66d4db39bfb51118cc47e3c39e6d609e03d4da43e923fbe7d
+      - image: quay.io/redhat-user-workloads/rh-ee-slallema-tenant/quarkus-demo/quarkus-demo@sha256:3e157ffaacb8f95ad24c779a36a5f89f272f5babe8a27ac7be5c0133d54218ab
         name: my-java-quarkus
         ports:
         - containerPort: 8081
