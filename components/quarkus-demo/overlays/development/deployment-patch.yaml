@@ -11,7 +11,7 @@ spec:
       creationTimestamp: null
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads/rh-ee-slallema-tenant/quarkus-demo/quarkus-demo@sha256:6ba0392dd29768d9716fe492648b09b1671bf36e37d55f5788ffb0d2154991e6
+      - image: quay.io/redhat-user-workloads/rh-ee-slallema-tenant/quarkus-demo/quarkus-demo@sha256:759a3d276e5ea1e66d4db39bfb51118cc47e3c39e6d609e03d4da43e923fbe7d
         name: my-java-quarkus
         resources: {}
 status: {}
